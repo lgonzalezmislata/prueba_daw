@@ -12,5 +12,6 @@ jobs:
       uses: appleboy/jenkins-action@master
       with:
         url: "http://jenkinslorenzo.daw2.pve2.fpmislata.com"
+        user: "system_builder"
         token: ${{ secrets.TOKEN }}
         job: "Desplegar"
