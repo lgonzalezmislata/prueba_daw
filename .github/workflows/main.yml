@@ -9,9 +9,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: trigger single Job
-      uses: appleboy/jenkins-action@master
+      uses: Gympass/jenkins-job-action@0.0.5
       with:
-        url: "http://jenkinslorenzo.daw2.pve2.fpmislata.com"
-        user: "system_builder"
-        token: ${{ secrets.TOKEN }}
-        job: "Desplegar"
+        jenkins_url: "http://jenkinslorenzo.daw2.pve2.fpmislata.com"
+        jenkins_user: "system_builder"
+        jenkins_token: ${{ secrets.TOKEN }}
+        job_name: "Desplegar"
