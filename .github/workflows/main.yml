@@ -13,5 +13,5 @@ jobs:
       with:
         url: "http://jenkinslorenzo.daw2.pve2.fpmislata.com"
         user: "system_builder"
-        token: "116942501779617363dbf3281a1ab26ae9"
+        token: ${{ secrets.TOKEN }}
         job: "Desplegar"
