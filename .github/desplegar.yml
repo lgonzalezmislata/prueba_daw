@@ -1,0 +1,16 @@
+name: deploy
+on:
+  push:
+    branches:
+      - main
+jobs:
+  build:
+    name: desplegar
+    runs-on: ubuntu-latest
+    steps:
+    - name: trigger single Job
+      uses: appleboy/jenkins-action@master
+      with:
+        url: "http://jenkinslorenzo.daw2.pve2.fpmislata.com"
+        token: ${{ secrets.TOKEN }}
+        job: "Desplegar"
