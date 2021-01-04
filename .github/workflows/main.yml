@@ -13,5 +13,5 @@ jobs:
       with:
         jenkins_url: "http://jenkinslorenzo.daw2.pve2.fpmislata.com"
         jenkins_user: "system_builder"
-        jenkins_token: ${{ secrets.TOKEN }}
+        jenkins_token: "${{ secrets.TOKEN }}"
         job_name: "Desplegar"
