@@ -1,7 +1,7 @@
 <html>
 </body>
-<h1 style="color:green;background-color:blue">Servidor 1</h1>
-<p>Desplegar automaticamente con GitHub Actions</p>
+<h1 style="color:green;background-color:pink">Servidor 1</h1>
+<p>Tengo sueño</p>
 </body>
 </html>
 
